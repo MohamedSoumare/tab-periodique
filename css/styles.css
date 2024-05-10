@@ -9,17 +9,18 @@ header {
 
     background-color: #ede8e8;
     padding: 5px;
-    width:70%;
+    width:90%;
     /* margin:50px 30px; */
-    border-radius: 15px;
+    border-radius: 10px;
     text-align: center;
    justify-content: center;
    /* align-items: center; */
     box-sizing: border-box;
     box-shadow: 0 0 10px rgba(253, 3, 12, 0.7);
-    margin-left: 180px;
-    margin-top: 80px;
-    /* margin-right: 20px; */
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 20px;
+
 
 }
 
@@ -28,15 +29,14 @@ header {
     display: grid;
     grid-template-columns: repeat(18, 1fr);
     grid-template-rows: repeat(7, 1fr);
-    width: 70%;
-
+    width: 90%;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 50px;
    border-radius: 10px;
-   box-shadow: 0 0 20px rgba(253, 3, 12, 0.4);
+   box-shadow: 0 0 20px rgba(253, 3, 12, 0.5);
    box-sizing: border-box;
-    justify-content: center;
-    /* align-items: center; */
+    /* justify-content: center;*/
+    align-items: center;
   
 }
 
@@ -48,11 +48,10 @@ header {
     
     font-weight: bold;
 
-    text-align: center;
     padding: 10px;
     cursor: pointer;
-    width: 25px;
-    height: 20px;
+    width: 40px;
+    height: 30px;
     border-radius: 10px;
 
 }
@@ -73,7 +72,7 @@ header {
     grid-column: 2/13;
 }
 
-/* 
+/*
 .item54,.item55,.item56{
     
     grid-row:6/7 ;
